@@ -1,0 +1,55 @@
+# Исключаем файлы и папки, которые не нужны в образе
+
+# Файлы деплоя
+docker-compose.yaml
+.gitlab-ci.yml
+
+# Директории с виртуальными окружениями
+venv/
+.venv/
+
+# Файлы конфигураций редакторов
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# Артефакты сборки
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# Кэш pip
+pip-wheel-metadata/
+pip-log.txt
+
+# Файлы с конфиденциальной информацией
+.env
+config.yaml
+config.yml
+.config.yaml
+.config.yml
+
+# Документация и тесты
+docs/
+tests/
+*.md
+
+# Без комментариев
+Dockerfile
+
+# Архивы, хранилища, бэкапы
+*.tar.gz
+*.zip
+*.db
+
+# git
+.git
+.gitignore
+.gitkeep
+
+# Системные файлы MacOS
+.DS_Store

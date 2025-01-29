@@ -1,0 +1,9 @@
+accounts:
+  - name: account1
+    token: 'token1'
+  - name: account2
+    token: 'token2'
+
+scrape_interval: 600
+timeweb_cloud_api_url: "https://api.timeweb.cloud/api/v1"
+sentry_dsn: "https://private_token_here@senrty.host/project_id"
